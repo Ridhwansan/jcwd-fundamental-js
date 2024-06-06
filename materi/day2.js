@@ -159,3 +159,8 @@ for (let i = 0; i < 5; i++) {
   }
   console.log("hello");
 }
+
+//cara push ke github
+//git add .
+//git  commit -m "your message"
+//git push origin namaBranch
