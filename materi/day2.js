@@ -129,9 +129,9 @@
 // while (i < 10) {
 //   console.log("aku ganteng");
 //   i++;
-// }
+//
 
-// //DO WHILE loop =================================
+//DO WHILE loop =================================
 
 // let countt = 1;
 // do {
