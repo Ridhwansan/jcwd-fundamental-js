@@ -10,7 +10,7 @@ for (let i = 1; i <= num; i++) {
 }
 
 //1 cara yang menggunakan function
-let kos = "";
+let kos = ""; //variable kosong
 function triangle(number) {
   for (let i = 1; i <= number; i++) {
     for (let j = 1; j <= i; j++) {
@@ -33,7 +33,7 @@ function triangle1(height) {
       //fungsi padstart digunakan untuk menambahkan sebuah karakter didepan (maxlength, karakter yang ditambahkan)
       counter++; // counter++ karena nilainya terus bertambah
     }
-    empty += "\n";
+    empty += "\n"; // \n digunakan kayak br di html
   }
 }
 triangle1(5);
