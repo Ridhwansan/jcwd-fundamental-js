@@ -61,7 +61,7 @@ console.log(resultfizzbuzz);
 
 //4 create a BMI calculator
 function bodyMassIndex(weight, height) {
-  let heightMeter = height / 100;
+  let heightMeter = height / 100; //tinggi badan diubah dulu ke meter
   let resultBMI = weight / heightMeter ** 2;
 
   if (resultBMI < 18.5) {
