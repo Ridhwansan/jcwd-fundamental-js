@@ -285,3 +285,24 @@ const result2 = age.filter((age, index) => {
   return age > 20;
 });
 console.log(result2);
+
+//find -> mencari value yang ditemukan pertama kali di dalam array
+const ages = [3, 10, 20, 19];
+const result3 = ages.find((age) => age > 18);
+console.log(result3);
+//hasil yang muncul 20 karena angka yang muncul pertama (dari kiri kekanan) adalah 20
+
+//findindex ->
+const ages2 = [3, 10, 20, 19];
+const result9 = ages2.findIndex((age) => age > 18);
+console.log(result9);
+//20 ada di index ke 2
+
+//reduce -> biasa digunakan untuk melakukan operasi aritmatika pada tiap isi array
+const numbers = [175, 50, 25];
+const result10 = numbers.reduce((a, b) => a + b);
+console.log(result10);
+
+//includes -> mengecek value pada array ada apa tidak, kalau ada dia return true kalau gak ada dia return false (boolean)
+const fruits7 = ["banana", "orange", "apples"];
+console.log(fruits7.includes("banana"));

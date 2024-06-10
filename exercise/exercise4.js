@@ -76,7 +76,7 @@ function bodyMassIndex(weight, height) {
     return "obesity";
   }
 }
-console.log(bodyMassIndex(74, 180));
+console.log(bodyMassIndex(76, 179));
 
 //5 remove all odd numbers with the result of even array only
 function removeOddNumbers(number) {
@@ -88,7 +88,7 @@ function removeOddNumbers(number) {
   }
   return resultOn;
 }
-let resultNumbers = removeOddNumbers(12);
+let resultNumbers = removeOddNumbers(13);
 console.log(resultNumbers);
 
 //6 split the string into an array by space
