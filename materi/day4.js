@@ -95,13 +95,13 @@
 // //REST PARAMETER
 // //mewakili sisa argument ke dalam 1 variable parameter
 
-// function myFunc(a, b, ...manyMoreArgs) {
-//   // titik tigakali (...) untuk menginisisasi pembuatan rest parameter
-//   console.log(a);
-//   console.log(b);
-//   console.log(manyMoreArgs);
-// }
-// myFunc(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+function myFunc(a, b, ...manyMoreArgs) {
+  // titik tigakali (...) untuk menginisisasi pembuatan rest parameter
+  console.log(a);
+  console.log(b);
+  console.log(manyMoreArgs);
+}
+myFunc(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 //parameter sisanya akan masuk ke manyMoreArgs
 
 //NESTED FUNCTION
