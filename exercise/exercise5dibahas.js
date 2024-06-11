@@ -167,16 +167,16 @@ function playRockPaperScissors(playerChoice) {
     return "error";
   }
   if (playerChoice === computerChoice) {
-    return "draw";
+    return { result: "draw", computerChoice, playerChoice };
   }
   if (
     (playerChoice === "rock" && computerChoice === "scissors") ||
     (playerChoice === "scissors" && computerChoice === "paper") ||
     (playerChoice === "paper" && computerChoice === "rock")
   ) {
-    return "player Win";
+    return { result: "win", computerChoice, playerChoice };
   } else {
-    return "computer win";
+    return { result: "lose", computerChoice, playerChoice };
   }
 }
 
