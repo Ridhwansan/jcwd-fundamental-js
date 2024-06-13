@@ -97,7 +97,7 @@ const objectOne = {
 };
 const objectTwo = {
   email: "ridhwansan@gmail.com",
-  name: "budi", //jika ada key yang sama maka yang sebelumnya akan ke replace otomatis dengang yang setelahnya
+  name: "budi", //jika ada key yang sama maka yang sebelumnya akan ke replace otomatis dengan yang setelahnya
 };
 const result = { ...objectOne, ...objectTwo }; //cara menggunakannya dengan titik 3
 console.log(result);
@@ -208,7 +208,7 @@ console.log(orang5.fullName2("aceng Man")); //menggunakan function biasa
 
 //Encapsulation
 //konsep di OOP untuk ngebundle data dalam 1 unit
-//comtohnya adalah class dan object (line 180 - 199)
+//contohnya adalah class dan object (line 180 - 199)
 
 //Inheritance -> pewarisan dari parent class ke child class. jadi property dan method
 //dari sebuah class parent bisa dimiliki sama child class
@@ -244,3 +244,26 @@ const rabbit = new Rabbit();
 console.log(rabbit instanceof Animal); //ternyata variable rabbit memiliki hubungan saudara dengan class Animal
 console.log(rabbit instanceof Rabbit); //ternyata variable rabbit memiliki hubungan saudara dengan class Rabbit
 console.log(rabbit instanceof Tree); //ternyata variable rabbit tidak memiliki hubungan saudara dengan Tree
+
+//Example to create array of students
+
+const students = [
+  {
+    name: "alice",
+    email: "aliceexample@gmail.com",
+    age: 20,
+    score: 85,
+  },
+  {
+    name: "bob",
+    email: "bobcexample@gmail.com",
+    age: 21,
+    score: 92,
+  },
+  {
+    name: "charlie",
+    email: "charlieexample@gmail.com",
+    age: 19,
+    score: 78,
+  },
+];
